@@ -3,6 +3,7 @@ package com.expensetracker.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
+
 public class Expense {
 
     private int id;
