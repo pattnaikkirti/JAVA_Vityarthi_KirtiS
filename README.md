@@ -1,6 +1,12 @@
-# Expense Tracker with Budget Alerts
+# 💸 Expense Tracker with Budget Alerts
+
+# Kirti Sonam Pattnaik
+# 24BAI10611
 
 A Java CLI application for hostel students to track daily expenses, set monthly budgets, and get real-time budget alerts.
+
+# 📋 Project Overview
+The Expense Tracker with Budget Alerts is a lightweight, command-line interface (CLI) application designed to help hostel students actively manage their personal finances. It provides tools to track daily spending, establish monthly financial limits, and receive proactive warnings before overspending occurs.
 
 ## Features
 
@@ -20,6 +26,54 @@ A Java CLI application for hostel students to track daily expenses, set monthly 
 - Java 17+
 - SQLite via JDBC (`sqlite-jdbc-3.46.1.3.jar`)
 - Manual compilation (no Maven/Gradle)
+
+# 📁File Structure
+```
+JAVA_Vityarthi_KirtiS/
+├── lib/
+├── out/
+│   └── com/
+│       └── expensetracker/
+│           ├── dao/
+│           │   ├── ExpenseDAO$ParamSetter.class
+│           │   ├── ExpenseDAO.class
+│           │   └── UserDAO.class
+│           ├── exception/
+│           │   └── ExpenseTrackerException.class
+│           ├── main/
+│           │   └── Main.class
+│           ├── model/
+│           │   ├── Category.class
+│           │   ├── Expense.class
+│           │   └── User.class
+│           ├── service/
+│           │   ├── ExpenseService.class
+│           │   └── UserService.class
+│           └── util/
+│               └── DBConnection.class
+├── src/
+│   └── com/
+│       └── expensetracker/
+│           ├── dao/
+│           │   ├── ExpenseDAO.java
+│           │   └── UserDAO.java
+│           ├── exception/
+│           │   └── ExpenseTrackerException.java
+│           ├── main/
+│           │   └── Main.java
+│           ├── model/
+│           │   ├── Category.java
+│           │   ├── Expense.java
+│           │   └── User.java
+│           ├── service/
+│           │   ├── ExpenseService.java
+│           │   └── UserService.java
+│           └── util/
+│               └── DBConnection.java
+├── LICENSE
+├── README.md
+└── run.bat
+```
 
 ## Project Structure
 
@@ -128,3 +182,8 @@ Each layer has a single responsibility — Main handles user interaction, Servic
 | Concurrency          | Thread, Runnable, volatile, daemon threads, InterruptedException, synchronized |
 | I/O                  | Scanner for input, formatted output with printf                       |
 | Functional Interface | ParamSetter in ExpenseDAO, lambda expressions, method references      |
+
+
+# Author 
+Kirti Sonam Pattnaik
+24BAI10611
